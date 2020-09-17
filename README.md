@@ -11,3 +11,6 @@ solution: sudo apt-get install python3.9-distutils
 
 [insert the row in database:]
 (https://stackoverflow.com/questions/22755230/how-to-insert-a-row-in-postgresql-pgadmin)
+
+2. **django currency link:**
+(https://www.youtube.com/watch?v=Rk8YTRAnSdI)
