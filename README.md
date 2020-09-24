@@ -22,7 +22,4 @@ solution: sudo apt-get install python3.9-distutils
 (https://www.dothedev.com/blog/heroku-django-store-your-uploaded-media-files-for-free/)
 
 6.**free domain for website:**
-(freenom.com)
-
-
-https://www.dothedev.com/blog/heroku-django-store-your-uploaded-media-files-for-free/
+(https://www.freenom.com)
