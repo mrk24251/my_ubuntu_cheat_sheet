@@ -17,3 +17,12 @@ solution: sudo apt-get install python3.9-distutils
 
 4. **change /etc/hosts file:**
 (https://askubuntu.com/questions/562310/how-to-edit-read-only-file-in-etc)
+
+5. **upload image and video(file) on heroku:**
+(https://www.dothedev.com/blog/heroku-django-store-your-uploaded-media-files-for-free/)
+
+6.**free domain for website:**
+(freenom.com)
+
+
+https://www.dothedev.com/blog/heroku-django-store-your-uploaded-media-files-for-free/
