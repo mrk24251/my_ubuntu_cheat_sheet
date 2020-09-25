@@ -23,3 +23,6 @@ solution: sudo apt-get install python3.9-distutils
 
 6.**free domain for website:**
 (https://www.freenom.com)
+
+6.**deploy css in heroku:**
+(https://devcenter.heroku.com/articles/django-assets)
