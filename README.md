@@ -24,5 +24,14 @@ solution: sudo apt-get install python3.9-distutils
 6.**free domain for website:**
 (https://www.freenom.com)
 
-6.**deploy css in heroku:**
+7.**deploy css in heroku:**
 (https://devcenter.heroku.com/articles/django-assets)
+
+8.**deploy rabbitmq & celery in heroku:**
+you just adding rabbitmq to heroku app,
+after that you should adding :
+CELERY_BROKER_URL = 'amqps://cmtjfjxf:MxPBcqiEZifOJl2aEasLUdUg7104Nsfy@finch.rmq.cloudamqp.com/cmtjfjxf'
+to settings.py file
+after this you shold adding:
+worker: celery -A myshop worker -l info
+at Procfile
