@@ -27,7 +27,8 @@ solution: sudo apt-get install python3.9-distutils
 7.**deploy css in heroku:**
 (https://devcenter.heroku.com/articles/django-assets)
 
-8.**deploy rabbitmq & celery in heroku:**
+8.**deploy rabbitmq & celery in heroku:**<br>
+<pre>
 you just adding rabbitmq to heroku app,
 after that you should adding :
 CELERY_BROKER_URL = 'amqps://cmtjfjxf:MxPBcqiEZifOJl2aEasLUdUg7104Nsfy@finch.rmq.cloudamqp.com/cmtjfjxf'
@@ -35,6 +36,7 @@ to settings.py file
 after this you shold adding:
 worker: celery -A myshop worker -l info
 at Procfile
+</pre>
 
 **Fastapi:**<br>
 8.**upload image in fastapi:**<br>
