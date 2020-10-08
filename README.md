@@ -35,3 +35,25 @@ to settings.py file
 after this you shold adding:
 worker: celery -A myshop worker -l info
 at Procfile
+
+**Fastapi:**
+8.**upload image in fastapi:**
+For uploading image wee need 3 step:
+  1.install cloudinary
+  2.import:
+    import cloudinary
+    import cloudinary.uploader
+  3.configure cloudinary:
+      cloudinary.config( 
+        cloud_name = "XXXXXXXXXXXXXX", 
+        api_key = "XXXXXXXXXXXXXXXXX", 
+        api_secret = "XXXXXXXXXXXXXXXXX" 
+      )
+  4.adding function like this:
+      @app.post("/uploadfile/")
+      async def create_upload_file(file: UploadFile = File(...)):
+        filename = file.filename
+        result =cloudinary.uploader.upload(file.file)
+        url = result.get("url");
+        return url
+    
