@@ -31,7 +31,7 @@ solution: sudo apt-get install python3.9-distutils
 <pre>
 you just adding rabbitmq to heroku app,
 after that you should adding :
-CELERY_BROKER_URL = 'amqps://cmtjfjxf:MxPBcqiEZifOJl2aEasLUdUg7104Nsfy@finch.rmq.cloudamqp.com/cmtjfjxf'
+CELERY_BROKER_URL = 'xxxxxxxxxxxxx'
 to settings.py file
 after this you shold adding:
 worker: celery -A myshop worker -l info
@@ -40,23 +40,26 @@ at Procfile
 
 **Fastapi:**<br>
 8.**upload image in fastapi:**<br>
-<pre>
-For uploading image wee need 3 step:
-  1.install cloudinary
-  2.import:
-    import cloudinary
-    import cloudinary.uploader
-  3.configure cloudinary:
-      cloudinary.config( 
-        cloud_name = "XXXXXXXXXXXXXX", 
-        api_key = "XXXXXXXXXXXXXXXXX", 
-        api_secret = "XXXXXXXXXXXXXXXXX" 
-      )
-  4.adding function like this:
-      @app.post("/uploadfile/")
-      async def create_upload_file(file: UploadFile = File(...)):
-        filename = file.filename
-        result =cloudinary.uploader.upload(file.file)
-        url = result.get("url");
-        return url
-</pre>
+  <pre>
+  For uploading image wee need 3 step:
+    1.install cloudinary
+    2.import:
+      import cloudinary
+      import cloudinary.uploader
+    3.configure cloudinary:
+        cloudinary.config( 
+          cloud_name = "XXXXXXXXXXXXXX", 
+          api_key = "XXXXXXXXXXXXXXXXX", 
+          api_secret = "XXXXXXXXXXXXXXXXX" 
+        )
+    4.adding function like this:
+        @app.post("/uploadfile/")
+        async def create_upload_file(file: UploadFile = File(...)):
+          filename = file.filename
+          result =cloudinary.uploader.upload(file.file)
+          url = result.get("url");
+          return url
+  </pre>
+  
+ Or We can use bellow url<br>
+ (https://github.com/tiangolo/fastapi/issues/426)
