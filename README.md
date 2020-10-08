@@ -39,7 +39,7 @@ at Procfile
 </pre>
 
 # Fastapi:<br>
-8.**upload image in fastapi:**<br>
+1.**upload image in fastapi:**<br>
   <pre>
   For uploading image wee need 3 step:
     1.install cloudinary
