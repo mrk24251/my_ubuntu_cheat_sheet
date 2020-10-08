@@ -38,7 +38,7 @@ worker: celery -A myshop worker -l info
 at Procfile
 </pre>
 
-**Fastapi:**<br>
+# Fastapi:<br>
 8.**upload image in fastapi:**<br>
   <pre>
   For uploading image wee need 3 step:
