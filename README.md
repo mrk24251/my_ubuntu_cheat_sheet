@@ -27,7 +27,6 @@ solution: sudo apt-get install python3.9-distutils
 7.**deploy css in heroku:**
 (https://devcenter.heroku.com/articles/django-assets)
 
-<pre>
 8.**deploy rabbitmq & celery in heroku:**
 you just adding rabbitmq to heroku app,
 after that you should adding :
@@ -37,8 +36,9 @@ after this you shold adding:
 worker: celery -A myshop worker -l info
 at Procfile
 
-**Fastapi:**
-8.**upload image in fastapi:**
+**Fastapi:**<br>
+8.**upload image in fastapi:**<br>
+<pre>
 For uploading image wee need 3 step:
   1.install cloudinary
   2.import:
