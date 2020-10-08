@@ -27,6 +27,7 @@ solution: sudo apt-get install python3.9-distutils
 7.**deploy css in heroku:**
 (https://devcenter.heroku.com/articles/django-assets)
 
+<pre>
 8.**deploy rabbitmq & celery in heroku:**
 you just adding rabbitmq to heroku app,
 after that you should adding :
@@ -56,4 +57,4 @@ For uploading image wee need 3 step:
         result =cloudinary.uploader.upload(file.file)
         url = result.get("url");
         return url
-    
+</pre>
