@@ -38,6 +38,11 @@ worker: celery -A myshop worker -l info
 at Procfile
 </pre>
 
+# DRF:<br>
+1.**djang documentation:**<br>
+  1.(https://drf-yasg.readthedocs.io/en/stable/readme.html)<br>
+  2.change drf_yasg to drf_yasg2 <br>
+  
 # Fastapi:<br>
 1.**upload image in fastapi:**<br>
   <pre>
