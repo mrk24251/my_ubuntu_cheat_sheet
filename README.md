@@ -40,8 +40,11 @@ at Procfile
 
 # DRF:<br>
 1.**djang documentation:**<br>
-  1.(https://drf-yasg.readthedocs.io/en/stable/readme.html)<br>
-  2.change drf_yasg to drf_yasg2 <br>
+<pre>
+  1.(https://drf-yasg.readthedocs.io/en/stable/readme.html)
+  2.change drf_yasg to drf_yasg2
+  3.[https://stackoverflow.com/questions/55007336/drf-yasg-customizing?rq=1]</pre>
+<br>
   
 # Fastapi:<br>
 1.**upload image in fastapi:**<br>
