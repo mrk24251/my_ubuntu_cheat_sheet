@@ -71,3 +71,12 @@ at Procfile
   
  Or We can use bellow url<br>
  (https://github.com/tiangolo/fastapi/issues/426)
+
+2.**setting PostgreSQL:**<br>
+search
+<pre>
+
+  search : How To Create Web Application using Python Flask PostgreSQL 
+  in youtube
+
+</pre>
