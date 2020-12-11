@@ -73,10 +73,4 @@ at Procfile
  (https://github.com/tiangolo/fastapi/issues/426)
 
 2.**setting PostgreSQL:**<br>
-search
-<pre>
-
-  search : How To Create Web Application using Python Flask PostgreSQL 
-  in youtube
-
-</pre>
+(https://youtu.be/CB1J2LUX1WI)
