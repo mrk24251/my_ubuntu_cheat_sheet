@@ -74,3 +74,8 @@ at Procfile
 
 2.**setting PostgreSQL:**<br>
 (https://youtu.be/CB1J2LUX1WI)
+
+
+# Ubuntu issue:<br>
+1.**chrome proxy does't work:**<br>
+(https://askubuntu.com/questions/513840/google-chrome-proxy-settings)
