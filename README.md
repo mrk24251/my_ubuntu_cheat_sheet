@@ -79,3 +79,9 @@ at Procfile
 # Ubuntu issue:<br>
 1.**chrome proxy does't work:**<br>
 (https://askubuntu.com/questions/513840/google-chrome-proxy-settings)
+
+
+# Heroku:<br>
+1.**heroku redis deploying:**<br>
+ We can use bellow url<br>
+ (https://devcenter.heroku.com/articles/heroku-redis)
